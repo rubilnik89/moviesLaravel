@@ -195,6 +195,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        \App\Modules\Movie\Providers\RouteServiceProvider::class,
+        \App\Modules\Movie\Providers\AppServiceProvider::class
+
     ],
 
     /*
